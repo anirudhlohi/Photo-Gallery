@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: coral;
+}
+.menu {
+    font-family: fantasy;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    background: white;
+    color: crimson;
+    list-style: none;
+}
+
+.link {
+    float: left;
+    color: chartreuse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 22px;
+    display: inline;
+}
+.link:hover {
+    background-color: #37f50c;
+    font-size: 25px;
+}
+#grid img {
+    height: 300px;
+    width: 330px;
+}
+#home img {
+    width: 450px;
+    height: 300px;
+}
+#myCarousel{
+background-color: red;
+}
+#myCarousel img {
+height: 300px;
+margin-top: 35px;
+}
+.carousel-inner p {
+margin-bottom: 15px;
+margin-top: 15px;
+color: white;
+font-size: 20px;
+}
+#contact iframe{
+    width: 100%;
+}
